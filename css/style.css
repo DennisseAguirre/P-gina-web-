@@ -134,12 +134,20 @@ a img {
 			margin-left:15%;
 			width:70%;
 	}
+
+	
+	
+	
 }
 @media (min-width:1090px) {
 	.container {
 			margin:0 auto;
 			width: 960px;
 	}
+
+
+
+	
 }
 /*--------------------------------------------------------------3.0 Typography--------------------------------------------------------------*/
 body {
@@ -1852,9 +1860,23 @@ ul.shortcode-archive li {
 	#secondary {
 			border-top:1px solid #404040;
 	}
-	.menu-toggle,.main-navigation.toggled .nav-menu {
+	.menu-toggle,.main-navigation.toggled .nav-menu,#contenido {
 			display:block;
 	}
+
+	div#contenido{
+		display:block;
+		text-align: center;
+		align-items: center;
+		justify-content: center;
+
+	}
+
+	h3.product-title{
+		justify-content: center;
+		text-align: center;
+	}
+
 	button.menu-toggle {
 			background:none;
 			border:0;
